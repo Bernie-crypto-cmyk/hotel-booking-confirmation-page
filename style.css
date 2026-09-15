@@ -1,0 +1,354 @@
+body{
+    background-color: #f5f5f5;
+   font-weight: 400;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    grid-area: box1;
+}
+.nav-wrapper{
+    display: flex;
+    gap: 10px
+}
+.hotel-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.hotel-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+.maison{
+    color: brown;
+}
+.menu-open-icon{
+    height: 20px;
+    width: 20px;
+}
+
+
+.hero-heading{
+    padding: 20px;
+    margin: 20px 0px;
+    grid-area: box3;
+}
+.hero-heading-wrap > h2 > span{
+    color: brown;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.print-btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 45%;
+}
+.add-btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 45%;
+}
+button{
+    cursor: pointer;
+}
+
+
+.hero-description{
+    padding: 20px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    transform: rotate(2deg);
+}
+.hero-description-top{
+    display: flex;
+    justify-content: space-between;
+    border-top: dotted 1px white;
+    padding: 10px;
+}
+.hero-description-icon{
+    height: 50px;
+    width: 50px;
+}
+.hero-description > h4{
+    color: yellow;
+}
+.p{
+    margin: 50px 0px;
+}
+
+.receipt{
+    padding: 20px;
+    border: solid #e5e5e5 2px;
+    margin: 20px 0px 50px 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    transform: rotate(-2deg);
+}
+.receipt-top{
+    display: flex;
+    justify-content: space-between;
+}
+.check-dates{
+    display: flex;
+    justify-content: space-between;
+    border-top: dotted 1px black;
+    border-bottom: dotted 1px black;
+}
+.cost-breakdown{
+    border-top: dotted 1px black;
+    border-bottom: solid 1px;
+}
+.cost-breakdown-item{
+    display: flex;
+    justify-content: space-between;
+}
+.cost-total-item{
+    display: flex;
+    justify-content: space-between;
+}
+.barcode-icon{
+    width:50px;
+    height: 50px;
+}
+
+
+.card-icon{
+    height: 40px;
+    width: 40px;
+}
+.card1-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: brown;
+}
+.card2-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+}
+.card3-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: purple;
+}
+.icon-wrap{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card1{
+    margin: 20px 0px;
+    border: solid #e5e5e5 2px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    grid-area: box6;
+}
+
+.card2{
+    margin: 20px 0px;
+    border: solid #e5e5e5 2px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    grid-area: box7;
+}.card3{
+    margin: 20px 0px;
+    padding: 20px;
+    border: solid #e5e5e5 2px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    grid-area: box8;
+}
+.network{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.copy{
+    height: 30px;
+    border-radius: 10px;
+}
+.card-number{
+    font-size: 1.5rem;
+}
+
+.close-menu-icon{
+    height: 20px;
+    width: 20px;
+}
+.nav-icon{
+    height: 24px;
+    width: 24px;
+}
+.nav-a-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+.nav-a-wrap > a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.nav-a-wrap > a:hover{
+    background-color: #ffffff;
+}
+.menu-list{
+    display: none;
+    grid-area: box2;
+}
+.weather{
+    padding: 10px;
+    background-color: #E1AD01;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.menu-close{
+   display: none ;
+}
+.menu-open-active{
+    display: none;
+}
+.menu-close-active{
+    display: block;
+}
+.menu-list-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.hero-active{
+    display: none;
+}
+.grid-wrap{
+    grid-area: box5;
+}
+.hero{
+    grid-area: box4;
+}
+
+@media (min-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 60px 2fr;
+        grid-template-areas: "box1 box4"
+                             "box2 box4"
+                             "box2 box4";
+    }
+    .menu-list{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-right: solid 1px black;
+    }
+    .menu-open{
+        display: none;
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60px 2fr 1fr;
+        grid-template-areas: "box3 box3 box3"
+                             "box5 box5 box5"
+                             "box6 box7 box8";
+    }
+    .grid-wrap{
+        display: flex;
+        padding: 0px 100px;
+    }
+    .hero-heading{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        
+    }
+    .button-wrapper{
+        width: 40%; 
+        align-items: center;
+    }
+    .receipt{
+        flex: 1;
+        margin-top: 50px;
+        height: 80%;
+    }
+    .hero-description{
+        flex:1;
+        height: 80%;
+    }
+    .grid-wrap:hover .hero-description{
+        animation: descHover 5s linear forwards;
+    }
+    .grid-wrap:hover .receipt{
+        animation: receiptHover 5s linear forwards;
+    }
+    .nav{
+        border-right: solid 1px black;
+    }
+    
+    @keyframes descHover {
+       0%{
+        transform: rotate(0deg);
+       }
+       50%{
+         transform: rotate(360deg) translate(420px);
+       }
+       100%{
+        transform: translateX(420px) rotate(-2deg);
+       }
+    }
+    @keyframes receiptHover {
+       0%{
+        transform: rotate(0deg);
+       }
+       50%{
+         transform: rotate(-360deg) translate(-420px);
+       }
+       100%{
+        transform: translateX(-420px) rotate(2deg);
+       }
+    }
+}
