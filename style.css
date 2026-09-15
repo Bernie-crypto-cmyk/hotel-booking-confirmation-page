@@ -334,7 +334,7 @@ button{
         transform: rotate(0deg);
        }
        50%{
-         transform: rotate(360deg) translate(420px);
+         transform: rotate(360deg);
        }
        100%{
         transform: translateX(420px) rotate(-2deg);
@@ -345,7 +345,7 @@ button{
         transform: rotate(0deg);
        }
        50%{
-         transform: rotate(-360deg) translate(-420px);
+         transform: rotate(-360deg);
        }
        100%{
         transform: translateX(-420px) rotate(2deg);
