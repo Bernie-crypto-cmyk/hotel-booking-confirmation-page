@@ -3,6 +3,11 @@
 
 This a confirmation page of a hotel after reservation.It contains a menu and hover card at desktop view.
 
+<img width="1299" height="1024" alt="image" src="https://github.com/user-attachments/assets/cd2ce3fa-fecc-476f-b338-490fab39a135" />
+
+<img width="401" height="2151" alt="image" src="https://github.com/user-attachments/assets/c5ceee3d-0a79-4f34-a9dd-c3abfee2cee2" />
+
+
 **technologies used**
 1. html
 2. css
